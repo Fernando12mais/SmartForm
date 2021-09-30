@@ -1,0 +1,26 @@
+.box-container {
+  background-color: gray;
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  border: solid 5px red;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(206, 232, 255);
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+
+.add {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.div-label {
+  font-size: 20pt;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
